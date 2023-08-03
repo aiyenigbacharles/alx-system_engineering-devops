@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -maxdepth 1 | sort -t / -k 2V | tr '\n' ',' | sed 's@./,@@;s@/@/,/@g;s/,$/\n/'
+ls -amvp
