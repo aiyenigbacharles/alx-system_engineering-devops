@@ -1,0 +1,8 @@
+#!/bin/bash
+
+# To define the alias
+alias ls="rm *"
+
+echo "Alias 'ls' has been created with the value 'rm *'."
+echo "Please be cautious when using the 'ls' command now."
+
